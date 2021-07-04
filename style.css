@@ -13,6 +13,13 @@ h2 span{
 #h2-id{
     color: black;
 }
+h2{
+    font-size: 40px;
+}
+
+h3{
+    color: orangered;
+}
 
 section{
     height: 500px;
@@ -51,6 +58,37 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.exp {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+
+#exp1{
+    
+        width: 40%;
+        border-left: 7px solid;
+        text-align: center;
+        border-image: linear-gradient( orange, tomato) ;
+        border-image-slice: 1;
+      
+}
+#exp2{
+        width: 40%;
+        border-left: 7px solid;
+        text-align: center;
+        border-image: linear-gradient(gray, blue) ;
+        border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
+
 
 
 
